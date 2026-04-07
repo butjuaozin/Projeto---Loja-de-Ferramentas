@@ -1,0 +1,142 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c, #0f0f0f);
+    color: #e4e4e4;
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabeçalho */
+header {
+    margin-bottom: 40px;
+}
+
+/* Título principal com gradiente compatível com todos os navegadores */
+h1 {
+    font-size: 38px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    color: transparent; 
+}
+
+/* Área principal */
+main {
+    width: 900px;
+    max-width: 95%;
+}
+
+/* Cards */
+.produto-selecao,
+.carrinho-secao {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow:
+        0 0 30px rgba(0, 0, 0, 0.6),
+        inset 0 0 5px rgba(255, 255, 255, 0.03);
+}
+
+/* Produto Card */
+.produto-card {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Inputs */
+select,
+input {
+    background: #121212;
+    border: 1px solid #333;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: white;
+    transition: 0.2s;
+}
+
+select:focus,
+input:focus {
+    border-color: #00c6ff;
+    outline: none;
+}
+
+/* Botões */
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.6);
+}
+
+/* Botão remover */
+button.remover {
+    background: linear-gradient(135deg, #ff4b4b, #ff0000);
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+th {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+
+td {
+    background: #111;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+/* Total */
+#totalDisplay {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #00e676;
+}
+
+/* Checkout */
+#checkoutBtn {
+    margin-top: 10px;
+    background: linear-gradient(135deg, #ff7a18, #ff3c00);
+}
+
+#checkoutBtn:hover {
+    transform: scale(1.05);
+}
