@@ -1,3 +1,3 @@
-Desenvolvimento de uma aplicação web utilizando HTML, CSS, JavaScript e Python (Flask). Implementação de funcionalidades como listagem de produtos, navegação entre páginas e estrutura básica de backend com rotas. Projeto voltado para integração entre front-end e back-end e consolidação de conceitos de desenvolvimento web. 
+Development of a web application using HTML, CSS, JavaScript, and Python (Flask). Implementation of features such as product listing, page navigation, and a basic backend structure with routes. A project focused on front-end and back-end integration and the consolidation of web development concepts.
 
-Tecnologias: HTML, CSS, JavaScript, Python (Flask)
+Technologies: HTML, CSS, JavaScript, Python (Flask)
